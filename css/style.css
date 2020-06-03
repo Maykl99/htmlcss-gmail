@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+}
+
+body{
+    background-image: url('https://firenzeurbanlifestyle.com/wp-content/uploads/2020/04/Testo_02-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sfondo{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(208, 208, 208, 0.8);
+}
+
+#icon_name{font-size: 30px;}
+
+main{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 25px;
+}
+
+img{
+    /* width: auto; */
+    height: 150px;
+    /* line-height: 300px; */
+    vertical-align: middle;
+}
+
+#bottone{
+  width: 50px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 > span{
+    border-radius: 50%;
+    background-color: burlywood;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+}
+
+h1,span{
+    color: #393b3a;
+}
+
+header section{
+    margin: 20px 0px 13px 36px;
+}
+
+hr{border: 2px solid #A8392D}
+
+/* input */ #testo{
+    width: 180px;
+    height: 30px;
+    padding: 3px;
+}
+.oggetti, #bottone,img{cursor: pointer;}
+
+.oggetti > span{margin: 3px;}
+
+.oggetti div{
+    border: 1px solid black;
+    margin-top: 3px;
+}
+
+.oggetti img{
+    width: 50px;
+    height: 50px;
+    margin-right: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+#selezionato{
+    opacity: 0.9;
+    background:#A8392D;
+}
+
+strong{margin-right: 3px;}
+
+.testo_email{opacity: 0.9;}
+
+.oggetti{margin-bottom: 17px;}
+
+.stella{
+    color: burlywood;
+    margin-left: 4px;
+    font-size: larger;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: #A8392D;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer h6{
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
